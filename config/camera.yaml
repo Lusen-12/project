@@ -1,0 +1,36 @@
+%YAML:1.0
+---
+image_width: 960
+image_height: 720
+camera_name: rune_sim_camera
+
+camera_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 869.1168824543144, 0.0, 480.0,
+           0.0, 869.1168824543144, 360.0,
+           0.0, 0.0, 1.0 ]
+
+distortion_model: plumb_bob
+distortion_coefficients: !!opencv-matrix
+   rows: 1
+   cols: 5
+   dt: d
+   data: [ 0.0, 0.0, 0.0, 0.0, 0.0 ]
+
+rectification_matrix: !!opencv-matrix
+   rows: 3
+   cols: 3
+   dt: d
+   data: [ 1.0, 0.0, 0.0,
+           0.0, 1.0, 0.0,
+           0.0, 0.0, 1.0 ]
+
+projection_matrix: !!opencv-matrix
+   rows: 3
+   cols: 4
+   dt: d
+   data: [ 869.1168824543144, 0.0, 480.0, 0.0,
+           0.0, 869.1168824543144, 360.0, 0.0,
+           0.0, 0.0, 1.0, 0.0 ]

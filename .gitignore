@@ -1,0 +1,6 @@
+build/
+output/
+data/
+*.mp4
+*.avi
+*.onnx
